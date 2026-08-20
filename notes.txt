@@ -1,0 +1,48 @@
+ES6 (ECMAScript 2015) Features:
+
+1. let and const
+   - let → block scoped variable
+   - const → constant, cannot be reassigned
+
+2. Arrow Functions
+   - Shorter syntax for functions
+   - Example: const add = (a, b) => a + b;
+
+3. Template Literals
+   - Use backticks (`) for strings
+   - Supports interpolation and multiline
+   - Example: `Hello ${name}`
+
+4. Destructuring
+   - Extract values from arrays/objects
+   - Example: const {x, y} = obj; const [a, b] = arr;
+
+5. Spread and Rest Operators (...)
+   - Spread → expand arrays/objects
+   - Rest → collect arguments in functions
+   - Example: const arr2 = [...arr1, 4];
+              function sum(...nums) { return nums.reduce((a,b)=>a+b); }
+
+6. Classes
+   - Cleaner syntax for OOP
+   - Example: class Animal { speak() { console.log("Sound"); } }
+
+7. Modules
+   - Import and export code
+   - Example: export const greet = () => "Hi";
+              import { greet } from './file.js';
+
+8. Promises
+   - Handle async operations
+   - Example: fetch(url).then(res => res.json()).catch(err => console.error(err));
+
+9. Iterators and for...of loop
+   - Easy iteration over arrays, strings, Maps, Sets
+   - Example: for (const item of arr) { console.log(item); }
+
+10. Other Features
+    - Default Parameters: function f(x=10) { ... }
+    - Symbols: unique identifiers
+    - New Array methods: find(), findIndex(), from()
+    - New String methods: includes(), startsWith(), endsWith()
+    - Number methods: Number.isInteger(), Number.isSafeInteger()

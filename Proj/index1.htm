@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo fetch</title>
+    <script>
+        const URL = "https://dummyjson.com/products?limit=5&skip=2"
+        function loadProduct(){
+            try{
+                const res = fetch(URL);
+                console.log(res);
+        
+            }
+            catch(err){
+                console.log(err);
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
